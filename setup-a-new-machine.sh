@@ -224,7 +224,7 @@ git config status.showuntrackedfiles no
 git update-index --untracked-cache
 
 # also this unrelated thing
-git config user.email "paulirish@chromium.org"
+git config user.email "davvidbaker@gmail.org"
 
 
 ##############################################################################################################
