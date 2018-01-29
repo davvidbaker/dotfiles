@@ -102,3 +102,5 @@
 	fetch = +refs/heads/*:refs/remotes/origin/*
 [stash]
 	showPatch = true
+[user]
+	email = davvidbaker@gmail.com
