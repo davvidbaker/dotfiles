@@ -4,9 +4,11 @@ source ~/.profile
 #   ~/.extra can be used for settings you don’t want to commit,
 #   Use it to configure your PATH, thus it being first in line.
 for file in ~/.{extra,bash_prompt,exports,aliases,functions,elastic_functions}; do
+  echo "$file"
     [ -r "$file" ] && source "$file"
 done
 unset file
+source ~/.git-completion.bash
 
 # to help sublimelinter etc with finding my PATHS
 # case $- in
@@ -132,3 +134,7 @@ shopt -s dirspell 2> /dev/null
 
 # Turn on recursive globbing (enables ** to recurse all directories)
 shopt -s globstar 2> /dev/null
+
+. $HOME/.asdf/asdf.sh
+
+. $HOME/.asdf/completions/asdf.bash
