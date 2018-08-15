@@ -75,6 +75,8 @@ alias free_diskspace_report="diskspace_report"
 alias g="git"
 alias v="vim"
 alias ungz="gunzip -k"
+alias glo="git log --oneline"
+alias nah="git reset --hard"
 
 # File size
 alias fs="stat -f \"%z bytes\""
