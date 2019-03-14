@@ -1,5 +1,6 @@
 [ -n "$PS1" ] && source ~/.bash_profile
 
+ssh-add
 
 # [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
