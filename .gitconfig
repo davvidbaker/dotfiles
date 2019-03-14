@@ -16,6 +16,7 @@
 	reup = rebase-update # depot_tools specific
 
 [core]
+	commentchar = %
 	excludesfile = ~/.gitignore
 	attributesfile = ~/.gitattributes
 
