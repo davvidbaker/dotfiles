@@ -78,6 +78,7 @@ alias ungz="gunzip -k"
 alias glo="git log --oneline"
 alias nah="git reset --hard"
 alias gup="git reset --soft HEAD^"
+alias advil="git add . && git commit --fixup HEAD"
 
 # File size
 alias fs="stat -f \"%z bytes\""
