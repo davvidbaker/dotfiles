@@ -1,4 +1,5 @@
-# Paul's dotfiles
+# David's dotfiles
+_based on Paul Irish's_
 
 * I maintain this repo as *my* dotfiles, but I'm keenly aware people are using it for theirs.
 * You're quite welcome to make suggestions, however I may decline if it's not of personal value to me.
