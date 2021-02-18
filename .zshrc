@@ -112,3 +112,7 @@ source ~/.bash_profile
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/david.baker/.sdkman"
+[[ -s "/Users/david.baker/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/david.baker/.sdkman/bin/sdkman-init.sh"

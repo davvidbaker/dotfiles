@@ -1,4 +1,4 @@
-source ~/.profile
+# source ~/.profile
 
 # Load our dotfiles like ~/.bash_prompt, etc…
 #   ~/.extra can be used for settings you don’t want to commit,
@@ -139,3 +139,6 @@ shopt -s globstar 2> /dev/null
 
 # elastic specific stuff
 export SCRAMBLE_DIR=~/Development/elastic/scramble4
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/david.baker/.sdkman"
+[[ -s "/Users/david.baker/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/david.baker/.sdkman/bin/sdkman-init.sh"

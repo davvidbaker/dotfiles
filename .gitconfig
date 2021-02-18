@@ -19,6 +19,7 @@
 	commentchar = %
 	excludesfile = ~/.gitignore
 	attributesfile = ~/.gitattributes
+	autocrlf = input
 
 [pager]
 	# insanely beautiful diffs ==> npm install -g diff-so-fancy
@@ -81,7 +82,7 @@
 
 # push easily. http://stackoverflow.com/a/23918418/89484
 [push]
-	default = current
+	default = tracking
 	followTags = true
 
 # use separate file for username / github token / etc
@@ -100,10 +101,12 @@
 	prune = true
 [diff]
 	compactionHeuristic = true
-[remote "origin"]
-	fetch = +refs/heads/*:refs/remotes/origin/*
+# [remote "origin"]
+# 	fetch = +refs/heads/*:refs/remotes/origin/*
 [stash]
 	showPatch = true
 [user]
-	email = davvidbaker@gmail.com
-	name = davvidbaker
+	email = david.baker@workday.com
+	name = david.baker
+[branch]
+	autosetuprebase = never
