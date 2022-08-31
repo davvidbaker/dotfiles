@@ -12,52 +12,52 @@ fpath=( "$HOME/.zfunctions" $fpath )
 
 
 # antigen time!
-source ~/code/antigen/antigen.zsh
+# source ~/code/antigen/antigen.zsh
 
 
 ######################################################################
 ### install some antigen bundles
 
-local b="antigen-bundle"
+# local b="antigen-bundle"
 
 
 # Don't load the oh-my-zsh's library. Takes too long. No need.
 	# antigen use oh-my-zsh
 
 # Guess what to install when running an unknown command.
-$b command-not-found
+# $b command-not-found
 
 # Helper for extracting different types of archives.
-$b extract
+# $b extract
 
 # atom editor
-$b atom
+# $b atom
 
-# homebrew  - autocomplete on `brew install`
-$b brew
-$b brew-cask
+# # homebrew  - autocomplete on `brew install`
+# $b brew
+# $b brew-cask
 
-# Tracks your most used directories, based on 'frecency'.
-$b robbyrussell/oh-my-zsh plugins/z
+# # Tracks your most used directories, based on 'frecency'.
+# $b robbyrussell/oh-my-zsh plugins/z
 
 # nicoulaj's moar completion files for zsh -- not sure why disabled.
 # $b zsh-users/zsh-completions src
 
-# Syntax highlighting on the readline
-$b zsh-users/zsh-syntax-highlighting
+# # Syntax highlighting on the readline
+# $b zsh-users/zsh-syntax-highlighting
 
-# history search
-$b zsh-users/zsh-history-substring-search ./zsh-history-substring-search.zsh
+# # history search
+# $b zsh-users/zsh-history-substring-search ./zsh-history-substring-search.zsh
 
-# suggestions
-$b tarruda/zsh-autosuggestions
+# # suggestions
+# $b tarruda/zsh-autosuggestions
 
-# colors for all files!
-$b trapd00r/zsh-syntax-highlighting-filetypes
+# # colors for all files!
+# $b trapd00r/zsh-syntax-highlighting-filetypes
 
-# dont set a theme, because pure does it all
-$b mafredri/zsh-async
-$b sindresorhus/pure
+# # dont set a theme, because pure does it all
+# $b mafredri/zsh-async
+# $b sindresorhus/pure
 
 # Tell antigen that you're done.
 #antigen apply
@@ -84,11 +84,11 @@ chpwd_functions=( auto-ls $chpwd_functions )
 
 
 # Enable autosuggestions automatically
-zle-line-init() {
-    zle autosuggest-start
-}
+# zle-line-init() {
+#     zle autosuggest-start
+# }
 
-zle -N zle-line-init
+# zle -N zle-line-init
 
 
 # history mgmt
@@ -104,7 +104,7 @@ zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 
 # zprof
 
 
-
+echo "here"
 # Load default dotfiles
 source ~/.bash_profile
 
