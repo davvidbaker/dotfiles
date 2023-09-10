@@ -104,7 +104,6 @@ zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 
 # zprof
 
 
-echo "here"
 # Load default dotfiles
 source ~/.bash_profile
 
