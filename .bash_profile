@@ -147,3 +147,8 @@ export SCRAMBLE_DIR=~/Development/elastic/scramble4
 export SDKMAN_DIR="/Users/david.baker/.sdkman"
 [[ -s "/Users/david.baker/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/david.baker/.sdkman/bin/sdkman-init.sh"
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+export PATH=$PATH:/Library/Frameworks/GAMS.framework/Versions/45/Resources/
+. "$HOME/.cargo/env"
+
+eval "$(pyenv init -)"

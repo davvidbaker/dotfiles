@@ -15,4 +15,7 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 # command -v gdircolors >/dev/null 2>&1 || alias gdircolors="dircolors"
 # eval "$(gdircolors -b ~/.dircolors)"
 
+export JUPYTER_PATH=/opt/homebrew/share/jupyter 
+export JUPYTER_CONFIG_PATH=/opt/homebrew/etc/jupyter
+
 export PATH=/Applications/MATLAB_R2023a.app/bin/:$PATH

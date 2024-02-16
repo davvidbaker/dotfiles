@@ -10,3 +10,4 @@ export NVM_DIR="$HOME/.nvm"
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 export NODE_OPTIONS=--max_old_space_size=8192
+. "$HOME/.cargo/env"

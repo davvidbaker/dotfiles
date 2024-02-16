@@ -77,7 +77,9 @@ brew install ncdu # find where your diskspace went
 
 brew install zsh
 
-brew install python
+# brew install python
 
 # Remove outdated versions from the cellar
 brew cleanup
+
+brew install pyenv
